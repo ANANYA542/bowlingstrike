@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bowling Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="message hidden" id="message">Strike!</div>
+    <audio id="strikeSound" src="strike.mp3" preload="auto"></audio>
+    <div class="pins-wrapper">
+        <div class="row">
+            <div class="pin"></div>
+            <div class="pin"></div>
+            <div class="pin"></div>
+            <div class="pin"></div>
+            <div class="pin"></div>
+        </div>
+        <div class="row">
+            <div class="pin"></div>
+            <div class="pin"></div>
+            <div class="pin"></div>
+            <div class="pin"></div>
+        </div>
+        <div class="row">
+            <div class="pin"></div>
+            <div class="pin"></div>
+            <div class="pin"></div>
+        </div>
+        <div class="row">
+            <div class="pin"></div>
+            <div class="pin"></div>
+        </div>
+        <div class="row">
+            <div class="pin"></div>
+        </div>
+    </div>
+    <div class="lane"></div>
+    <div class="ball" id="ball"></div>
+    <div class="ball-guide" id="guide"></div>
+
+    <div id="scoreDisplay">Score: 0</div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
